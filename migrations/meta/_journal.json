@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1725484312527,
+      "tag": "0000_quick_triton",
+      "breakpoints": true
+    }
+  ]
+}

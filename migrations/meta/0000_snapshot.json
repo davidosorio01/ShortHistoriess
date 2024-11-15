@@ -1,0 +1,169 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "prevId": "",
+  "version": "6",
+  "dialect": "sqlite",
+  "tables": {
+    "Usuarios": {
+      "name": "Usuarios",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "nombre_usuario": {
+          "autoincrement": false,
+          "name": "nombre_usuario",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "correo_electronico": {
+          "autoincrement": false,
+          "name": "correo_electronico",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "contraseña": {
+          "autoincrement": false,
+          "name": "contraseña",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "fecha_nacimiento": {
+          "autoincrement": false,
+          "name": "fecha_nacimiento",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sexo": {
+          "autoincrement": false,
+          "name": "sexo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "Historias": {
+      "name": "Historias",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "titulo": {
+          "autoincrement": false,
+          "name": "titulo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "id_autor": {
+          "autoincrement": false,
+          "name": "id_autor",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fecha_creacion": {
+          "autoincrement": false,
+          "name": "fecha_creacion",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "Genero": {
+      "name": "Genero",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "nombre": {
+          "autoincrement": false,
+          "name": "nombre",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "Opiniones": {
+      "name": "Opiniones",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "likes": {
+          "autoincrement": false,
+          "name": "likes",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "reseseña ": {
+          "autoincrement": false,
+          "name": "reseseña ",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "libro_leido ": {
+          "autoincrement": false,
+          "name": "libro_leido ",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "autor ": {
+          "autoincrement": false,
+          "name": "autor ",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
