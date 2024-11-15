@@ -36,7 +36,7 @@
 			<a href="#inicio">Inicio</a>
 			<a href="#nuestros-programas">Nuestros contenidos</a>
 			<a href="#final">Redes sociales</a>
-			<a href="/InicioSesion">Inicia Sesion</a>
+			<a href="/inicioSesion">Inicia Sesion</a>
 			<a href=""> </a>
 			<a href="#">Servicios</a>
 		</nav>
@@ -54,7 +54,7 @@
 				leerlas. Esto con el fin de mejorar la comprension lectora de personas.	
 			</p>
 			<br>
-			<button class="btn" onclick={()=>goto('/InicioSesion')}>Registrate</button>
+			<button class="btn" onclick={()=>goto('/inicioSesion')}>Registrate</button>
 				
 		</div>
 	</section>

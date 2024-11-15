@@ -10,8 +10,7 @@ export const actions: Actions = {
     try {
       const data = Object.fromEntries(await request.formData());
       const correo = String(data.correo);
-      const newPassword = String(data.password);
-      console.log("datos: ",data)
+      const newPassword = String(data.new_password);
 
       console.log("Datos recibidos:", { correo, newPassword });
 
